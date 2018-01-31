@@ -1,0 +1,17 @@
+net: "./model/train_val.prototxt"
+test_initialization: false
+
+base_lr: 0.1
+max_iter: 200000
+lr_policy: "poly"
+power: 1.8
+momentum: 0.9
+weight_decay: 0.0002
+
+display: 500
+snapshot: 50000
+snapshot_prefix: "./output/poly"
+
+random_seed: 1000
+
+solver_mode: GPU
