@@ -2,7 +2,7 @@
 
 This is an implementation of feature extraction method with [center loss function](https://ydwen.github.io/papers/WenECCV16.pdf) and the small network [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf). The network is trained on [CASIA_WebFace](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html) with preprocessing of face cropping and affine transform. 
 
-We tested the verification accuracy on [LFW dataset](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html) and got an accuracy of 97.6%.
+We tested the verification accuracy on [LFW dataset](http://vis-www.cs.umass.edu/lfw/) and got an accuracy of 97.6%.
 
 After training, if you truncate the fully connected layers in SqueezeNet, the caffemodel will be only 2.6 MB.
 
